@@ -1,0 +1,225 @@
+*
+{
+	margin:0;
+	padding:0
+}
+	a
+{
+	text-decoration:none;
+	color:#ffa500
+}
+	a:visited
+{
+	text-decoration:none
+}
+	body
+{
+	background:url("Fotografije/telefoni.jpg") no-repeat fixed;
+	height:100%;
+	color:#fff;
+	font-family:Arial;
+	text-shadow:0px 0px 20px #000
+}
+	h1
+{
+	font-size:20px
+}
+	ul
+{
+	list-style:none;
+	position:absolute
+}
+	li
+	{
+	display:inline-block;
+}
+	li a
+{
+	display:block;
+	min-width:140px;
+	text-align:center;
+	line-height:47px;
+	font-family:Arial;
+	color:#fff;
+	background:#1e2022;
+	text-decoration:none
+}
+	li:hover a
+{
+	background:#00d2d9;
+	transition:background-color 0.5s ease
+}
+	li:hover ul a
+{
+	background:#f3f3f3;
+	color:#2f3036;
+	height:40px;
+	line-height:40px;
+	transition:background-color 0.5s ease
+}
+	li:hover ul a:hover
+{
+	background:#00d2d9;
+	color:#fff
+}
+	li ul
+{
+	display:none
+}
+	li ul li
+{
+	display:block;
+	float:none
+}
+	ul li a:hover + .drop,.drop:hover
+{
+	display:block
+}
+
+.meni
+{
+	width: 100%;
+	font-family:Arial;
+	text-decoration:none;
+	color:#fff;
+	background:#1e2022;
+	text-align:center;
+	padding:10px 0;
+	
+}
+#meni{
+	width: 100%;
+	background-color: #1e2022;
+	
+		z-index: 2;
+		position: relative;
+	
+}
+	input[type=checkbox]
+{
+	display:none
+}
+	input[type=checkbox]:checked ~ #meni
+{
+	display:block
+}
+	input[type=text]
+{
+	width:200px;
+	padding:7px;
+	margin:5px 0;
+	box-sizing:border-box
+}
+	input[type=password]
+{
+	width:200px;
+	padding:7px 0px;
+	margin:5px 0;
+	box-sizing:border-box
+}
+	input[type=text]:focus,[type=password]:focus
+{
+	border:2px solid #00d2d9
+}
+	select
+{
+	width:200px;
+	margin:8px 0;
+	box-sizing:border-box
+}
+	select :focus
+{
+	border:2px solid #00d2d9
+}
+	input[type=submit]
+{
+	background-color:#00d2d9;
+	border:none;
+	color:#fff;
+	padding:12px 20px;
+	margin:15px 0;
+	width:200px
+}
+	table
+{
+	border-collapse:collapse
+}
+	table,th,td
+{
+	border:1px solid #000
+}
+.greske
+{
+	color:red
+}
+.button
+{
+	background-color:#00d2d9;
+	border:none;
+	color:#fff;
+	padding:12px 20px;
+	margin:15px 0;
+	width:200px
+}
+.reg
+{
+	position:absolute;
+	margin:0 auto;
+	top:10%;
+	right:0;
+	bottom:0;
+	left:0;
+	padding-top:30px;
+	background-color:#1e2022;
+	width:700px;
+	height:750px;
+	border-radius:10px;
+	/*opacity:.9;*/
+}
+
+.login
+{
+	width:100%;
+	text-align:right;
+	float:right;
+	margin:0;
+	background:#1e2022;
+}
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #1e2022;
+	color: white;
+	font-size:18px;
+	line-height:50px;
+	margin:0;	
+	text-align:center
+}
+
+	
+@media only screen and (max-width:768px)
+{
+.reg
+{
+	text-align:center;
+	top:35%
+}
+	ul
+{
+	position:static;
+	display:none
+}
+	ul li,li a
+{
+	width:100%
+}
+.meni
+{
+	display:block
+}
+
+}
+
+
